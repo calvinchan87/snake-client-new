@@ -24,6 +24,9 @@ let connection;
     if (key === 'd') {
       conn.write('Move: right');
     }
+    if (key === 'x') {
+      conn.write('Say: nsfw');
+    }    
     if (key === '\u0003') {
       process.exit();
     }
